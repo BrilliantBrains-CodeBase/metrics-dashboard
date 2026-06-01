@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Performance Dashboard" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Ad performance across verticals
+      - generic [ref=e7]: Loading data…
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button "🛒 eCommerce" [ref=e12]:
+            - generic [ref=e13]: 🛒
+            - text: eCommerce
+          - button "🏥 Hospitals" [ref=e14]:
+            - generic [ref=e15]: 🏥
+            - text: Hospitals
+          - button "📊 Other" [ref=e16]:
+            - generic [ref=e17]: 📊
+            - text: Other
+        - generic [ref=e18]:
+          - generic [ref=e19]: Period
+          - generic [ref=e20]:
+            - button "Last 7 days" [ref=e21]
+            - button "Last 30 days" [ref=e22]
+            - button "Last 90 days" [ref=e23]
+            - button "All time" [ref=e24]
+      - generic [ref=e25]:
+        - generic [ref=e26]: Brand
+        - generic [ref=e27]:
+          - button "SCHICK-A-WALK" [ref=e28]
+          - button "OSN" [ref=e29]
+      - heading "💡 Key Insights" [level=3] [ref=e40]:
+        - generic [ref=e41]: 💡
+        - text: Key Insights
+      - generic [ref=e46]:
+        - text: Showing demo data. Add Google Sheets CSV URLs in
+        - code [ref=e47]: config/brands.ts
+        - text: to load real data.
+  - button "Open Next.js Dev Tools" [ref=e53] [cursor=pointer]:
+    - img [ref=e54]
+  - alert [ref=e57]

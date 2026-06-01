@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Performance Dashboard" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Ad performance across verticals
+      - generic [ref=e7]: Loading data…
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: Brand
+        - generic [ref=e12]:
+          - combobox [ref=e13] [cursor=pointer]:
+            - option "SCHICK-A-WALK" [selected]
+            - option "OSN"
+            - option "Maniyar"
+            - option "Evday"
+            - option "Skinloom"
+          - generic:
+            - img
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - button "eCommerce" [ref=e16]
+          - button "Hospitals" [ref=e17]
+          - button "Other" [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Period
+          - generic [ref=e21]:
+            - button "Last 7 days" [ref=e22]
+            - button "Last 30 days" [ref=e23]
+            - button "Last 90 days" [ref=e24]
+            - button "All time" [ref=e25]
+      - generic [ref=e26]:
+        - button "Overview" [ref=e27]
+        - button "Report" [ref=e28]
+      - heading "Key Insights" [level=3] [ref=e39]
+      - generic [ref=e44]:
+        - text: Showing demo data. Add Google Sheets CSV URLs in
+        - code [ref=e45]: config/brands.ts
+        - text: to load real data.
+  - button "Open Next.js Dev Tools" [ref=e51] [cursor=pointer]:
+    - img [ref=e52]
+  - alert [ref=e55]

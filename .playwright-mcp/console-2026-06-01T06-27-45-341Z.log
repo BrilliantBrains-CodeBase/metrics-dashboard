@@ -1,0 +1,285 @@
+[     314ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     348ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1042ms] [LOG] [SCHICK-A-WALK] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  111488ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  111890ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  111891ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  111891ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  111891ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  112058ms] [LOG] [Fast Refresh] done in 486ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  137240ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  137262ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  137799ms] [LOG] [SCHICK-A-WALK] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  137802ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  137803ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  137803ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  137803ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  138981ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  138981ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  138981ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  138981ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  140531ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  140531ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  140531ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  140532ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141113ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141113ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141113ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141113ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141930ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141930ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141930ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  141931ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  142863ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  142863ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  142863ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  142863ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  144163ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  144163ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  144163ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  144164ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  146113ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  146114ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  146114ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  146114ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  184965ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  184966ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  184966ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  184966ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  189748ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  189749ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  189749ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  189749ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  192264ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  192265ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  192266ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  192266ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  193329ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  193330ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  193330ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  193330ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  194446ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  194446ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  194446ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  194446ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  195730ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  195730ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  195731ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  195731ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  232116ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  232116ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  232117ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  232117ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  233362ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  233362ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  233363ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  233363ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  382615ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  382616ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  382616ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  382616ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  383795ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  383795ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  383796ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  383796ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  384528ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  384529ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  384529ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  384529ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  398032ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  398033ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  398034ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  398034ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  454795ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  454795ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  454795ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  454795ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  455594ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  455595ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  455595ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  455595ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  482264ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  482264ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  482264ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  482264ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  485229ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  485229ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  485230ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  485230ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  486512ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  486513ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  486513ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.18 rev=785396.99 spend=247283.48 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  486513ms] [LOG] [compCharts] OSN roas=3.26 rev=4392673 spend=1347344 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  487728ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  487729ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  487729ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  487729ms] [LOG] [compCharts] OSN roas=3.25 rev=1538437 spend=474010 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  488929ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  488929ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  488930ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  488930ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  564735ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  564735ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  564736ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  564736ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  567000ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  567000ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  567001ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  567001ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  627011ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  627012ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  627012ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  627013ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  628261ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  628261ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  628261ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  628261ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  885752ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  885753ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  885754ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  885754ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  887413ms] [LOG] [compCharts] Hospital X roas=undefined rev=undefined spend=92656 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  887413ms] [LOG] [compCharts] Hospital Y roas=undefined rev=undefined spend=96958 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  887413ms] [LOG] [compCharts] Hospital X roas=undefined rev=undefined spend=92656 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  887413ms] [LOG] [compCharts] Hospital Y roas=undefined rev=undefined spend=96958 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  888140ms] [LOG] [compCharts] Other Brand 1 roas=2.51 rev=175749 spend=70066 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  888140ms] [LOG] [compCharts] Other Brand 1 roas=2.51 rev=175749 spend=70066 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894647ms] [LOG] [compCharts] Hospital X roas=undefined rev=undefined spend=92656 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894647ms] [LOG] [compCharts] Hospital Y roas=undefined rev=undefined spend=96958 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894648ms] [LOG] [compCharts] Hospital X roas=undefined rev=undefined spend=92656 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894648ms] [LOG] [compCharts] Hospital Y roas=undefined rev=undefined spend=96958 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894689ms] [LOG] [compCharts] Hospital X roas=undefined rev=undefined spend=92656 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894689ms] [LOG] [compCharts] Hospital Y roas=undefined rev=undefined spend=96958 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894689ms] [LOG] [compCharts] Hospital X roas=undefined rev=undefined spend=92656 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  894689ms] [LOG] [compCharts] Hospital Y roas=undefined rev=undefined spend=96958 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895446ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895446ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895447ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895447ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895473ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895474ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895474ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  895474ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1127933ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1127934ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1127934ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1127934ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1128960ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1128961ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1128961ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1128961ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1375723ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1959578ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2160363ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2802229ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 7278896ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 7696641ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442542ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442707ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442708ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442708ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442709ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442829ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442830ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442830ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442830ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8442968ms] [LOG] [Fast Refresh] done in 210ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443420ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:3000/api/sheets?id=1AqsUH_d7aesZRCUNspkPBbUKz8Hmlj7LG3s2gHrJ8IE%2F&sheet=Daily+Tracker+%28Meta+Ads%29:0
+[ 8443422ms] [ERROR] [Skinloom_Marketing_Metrics_Tracker] Sheets fetch failed: Error: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at fetchSheetRows (http://localhost:3000/_next/static/chunks/_0.wq2aw._.js:179:24)
+    at async fetchBrandData (http://localhost:3000/_next/static/chunks/_0.wq2aw._.js:224:22)
+    at async Dashboard.useEffect (http://localhost:3000/_next/static/chunks/_0.wq2aw._.js:1429:34)
+    at async Promise.all (index 2) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 8443431ms] [LOG] [Evday_Marketing_Metrics_Tracker] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443437ms] [LOG] [Maniyar Marketing] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443448ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] Maniyar Marketing roas=0.68 rev=4018 spend=5932.4400000000005 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.44 rev=5335 spend=12181.869999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.24 rev=391599 spend=120735 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.58 rev=246650.79 spend=68929.86 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] OSN roas=3.15 rev=348646 spend=110774 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] Maniyar Marketing roas=0.68 rev=4018 spend=5932.4400000000005 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.44 rev=5335 spend=12181.869999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443449ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.24 rev=391599 spend=120735 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443538ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8443563ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8448149ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8448175ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8448227ms] [LOG] [Maniyar Marketing] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8448234ms] [LOG] [Evday_Marketing_Metrics_Tracker] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8448758ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:3000/api/sheets?id=1AqsUH_d7aesZRCUNspkPBbUKz8Hmlj7LG3s2gHrJ8IE%2F&sheet=Daily+Tracker+%28Meta+Ads%29:0
+[ 8448758ms] [ERROR] [Skinloom_Marketing_Metrics_Tracker] Sheets fetch failed: Error: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at fetchSheetRows (http://localhost:3000/_next/static/chunks/_0.wq2aw._.js:200:24)
+    at async fetchBrandData (http://localhost:3000/_next/static/chunks/_0.wq2aw._.js:245:22)
+    at async Dashboard.useEffect (http://localhost:3000/_next/static/chunks/_0.wq2aw._.js:1450:34)
+    at async Promise.all (index 4) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 8449067ms] [LOG] [SCHICK-A-WALK] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449484ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449487ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449487ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449488ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449488ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449488ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449489ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449489ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449489ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449489ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8449489ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451194ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451194ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451194ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451195ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451195ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451195ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451195ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451195ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451196ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8451196ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452581ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452581ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452581ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452582ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452582ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452582ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452582ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452582ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452583ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8452583ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453978ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453979ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453979ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453979ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453979ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453980ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453980ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453980ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453980ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8453981ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455745ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455745ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455745ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455745ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455746ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455746ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455747ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455747ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455747ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8455747ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458348ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458348ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458348ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458348ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458349ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458349ms] [LOG] [compCharts] SCHICK-A-WALK roas=3.13 rev=760211.5900000001 spend=243074.57000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458350ms] [LOG] [compCharts] OSN roas=3.78 rev=2604744.3499999996 spend=688816.6499999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458350ms] [LOG] [compCharts] Maniyar Marketing roas=0.70 rev=27421 spend=39060.31999999999 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458350ms] [LOG] [compCharts] Evday_Marketing_Metrics_Tracker roas=0.39 rev=16585.25 spend=42952.200000000004 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8458350ms] [LOG] [compCharts] Skinloom_Marketing_Metrics_Tracker roas=3.13 rev=1486277 spend=474276 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8698429ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8949367ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8949733ms] [LOG] [Fast Refresh] done in 302ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8958906ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8959013ms] [LOG] [Fast Refresh] done in 162ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8969120ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 8969275ms] [LOG] [Fast Refresh] done in 66ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
