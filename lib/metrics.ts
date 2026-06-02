@@ -1,4 +1,4 @@
-import { AnyRow, EcomRow, HospitalRow, OtherRow, DateRange, Vertical } from '@/types'
+import { AnyRow, EcomRow, HospitalRow, OtherRow, ShopifyRow, DateRange, Vertical } from '@/types'
 
 export function filterByDateRange(rows: AnyRow[], range: DateRange): AnyRow[] {
   if (range === 'all') return rows
@@ -74,6 +74,35 @@ export function sumOther(rows: OtherRow[]) {
     impressions: totImpressions,
     clicks: totClicks,
   }
+}
+
+export function sumShopify(rows: ShopifyRow[]) {
+  const totRevenue = rows.reduce((s, r) => s + r.revenue, 0)
+  const totOrders = rows.reduce((s, r) => s + r.orders, 0)
+  const totCancellations = rows.reduce((s, r) => s + r.cancellations, 0)
+  const totCustomers = rows.reduce((s, r) => s + r.totalCustomers, 0)
+  return {
+    revenue: totRevenue,
+    orders: totOrders,
+    cancellations: totCancellations,
+    totalCustomers: totCustomers,
+    aov: totOrders > 0 ? totRevenue / totOrders : 0,
+    cancellationRate: totOrders > 0 ? (totCancellations / totOrders) * 100 : 0,
+  }
+}
+
+export function filterShopifyByDateRange(rows: ShopifyRow[], range: DateRange): ShopifyRow[] {
+  if (range === 'all') return rows
+  if (range === 'yesterday') {
+    const y = new Date()
+    y.setDate(y.getDate() - 1)
+    const yStr = y.toISOString().slice(0, 10)
+    return rows.filter((r) => r.date === yStr)
+  }
+  const days = range === '7d' ? 7 : range === '30d' ? 30 : 90
+  const cutoff = new Date()
+  cutoff.setDate(cutoff.getDate() - days)
+  return rows.filter((r) => new Date(r.date) >= cutoff)
 }
 
 export function growthPercent(current: number, previous: number): number {

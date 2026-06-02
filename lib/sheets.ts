@@ -1,4 +1,4 @@
-import { Brand, EcomRow, HospitalRow, OtherRow, AnyRow } from '@/types'
+import { Brand, EcomRow, HospitalRow, OtherRow, AnyRow, ShopifyRow, BrandData } from '@/types'
 
 // ── Number normalizer ─────────────────────────────────────────────────────────
 function n(v: unknown): number {
@@ -112,31 +112,40 @@ function parseOtherRow(raw: Record<string, string>): OtherRow {
   }
 }
 
-// ── Sheets API fetch ──────────────────────────────────────────────────────────
-// Returns an array of row objects keyed by header values.
-// Auto-detects which row contains the headers (first row with a non-empty first cell
-// that looks like a column label, not a date or number).
-async function fetchSheetRows(brand: Brand): Promise<Record<string, string>[]> {
-  const cleanId = brand.spreadsheetId.trim().replace(/\/+$/, '')
-  const params = new URLSearchParams({ id: cleanId })
-  if (brand.sheetName) params.set('sheet', brand.sheetName)
+function parseShopifyRow(raw: Record<string, string>): ShopifyRow {
+  const r = Object.fromEntries(Object.entries(raw).map(([k, v]) => [normalizeKey(k), v]))
+  const orders = n(pick(r, 'orders', 'totalorders', 'ordercount'))
+  const revenue = n(pick(r, 'revenue', 'grosssales', 'netsales', 'totalsales', 'sales'))
+  return {
+    date:           normalizeDate(pick(r, 'date', 'day')),
+    orders,
+    revenue,
+    aov:            n(pick(r, 'aov', 'averageordervalue', 'avgordervalue')) || (orders > 0 ? revenue / orders : 0),
+    cancellations:  n(pick(r, 'cancellations', 'cancelledorders', 'refunds')),
+    totalCustomers: n(pick(r, 'totalcustomers', 'customers', 'uniquecustomers')),
+  }
+}
 
+// ── Sheets API fetch ──────────────────────────────────────────────────────────
+async function fetchSheetRowsById(id: string, sheetName?: string, debugLabel?: string): Promise<Record<string, string>[]> {
+  const cleanId = id.trim().replace(/\/+$/, '')
+  const params = new URLSearchParams({ id: cleanId })
+  if (sheetName) params.set('sheet', sheetName)
   const res = await fetch(`/api/sheets?${params}`)
   const json = await res.json()
-
   if (!res.ok) throw new Error(json.error ?? `Sheets API error ${res.status}`)
+  return parseRawRows(json.values ?? [], debugLabel)
+}
 
-  const raw: string[][] = json.values ?? []
+// ── Shared raw-rows parser ────────────────────────────────────────────────────
+function parseRawRows(raw: string[][], debugLabel?: string): Record<string, string>[] {
   if (raw.length === 0) return []
 
-  // Find the header row: first row whose first non-empty cell is a text label (not a date/number)
   let headerIdx = 0
   for (let i = 0; i < Math.min(raw.length, 10); i++) {
     const first = (raw[i][0] ?? '').trim()
     if (first === '') continue
-    // If it looks like a label (not a date, not a pure number), use it as the header row
-    const looksLikeLabel = isNaN(Number(first)) && !/^\d{1,2}[\/\-]\d{1,2}/.test(first)
-    if (looksLikeLabel) {
+    if (isNaN(Number(first)) && !/^\d{1,2}[\/\-]\d{1,2}/.test(first)) {
       headerIdx = i
       break
     }
@@ -144,22 +153,18 @@ async function fetchSheetRows(brand: Brand): Promise<Record<string, string>[]> {
 
   const headers = raw[headerIdx].map((h) => h.trim())
 
-  if (process.env.NODE_ENV === 'development') {
-    console.log(`[${brand.name}] header row ${headerIdx + 1}:`, headers)
+  if (process.env.NODE_ENV === 'development' && debugLabel) {
+    console.log(`[${debugLabel}] header row ${headerIdx + 1}:`, headers)
   }
 
-  // Find the index of the "Date" column so we can filter junk rows
   const dateColIdx = headers.findIndex((h) => h.trim().toLowerCase() === 'date')
 
   return raw.slice(headerIdx + 1)
     .filter((row) => {
-      // Drop fully empty rows
       if (row.every((c) => !c || c.trim() === '')) return false
-      // Drop label/aggregate rows (Date cell must be a number or a parseable date, not text)
       if (dateColIdx >= 0) {
         const dateCell = (row[dateColIdx] ?? '').trim()
         if (!dateCell) return false
-        // Keep rows where date cell is a number (1–31) or an ISO-like date
         const isNumeric = /^\d{1,2}$/.test(dateCell) && parseInt(dateCell, 10) >= 1
         const isDateLike = /^\d{4}/.test(dateCell) || /^\d{1,2}[\/\-]/.test(dateCell)
         if (!isNumeric && !isDateLike) return false
@@ -168,34 +173,57 @@ async function fetchSheetRows(brand: Brand): Promise<Record<string, string>[]> {
     })
     .map((row) => {
       const obj: Record<string, string> = {}
-      headers.forEach((h, i) => {
-        if (h) obj[h] = (row[i] ?? '').trim()
-      })
+      headers.forEach((h, i) => { if (h) obj[h] = (row[i] ?? '').trim() })
       return obj
     })
 }
 
-// ── Main export ───────────────────────────────────────────────────────────────
-export async function fetchBrandData(brand: Brand): Promise<AnyRow[]> {
+async function fetchSheetRows(brand: Brand): Promise<Record<string, string>[]> {
   const cleanId = brand.spreadsheetId.trim().replace(/\/+$/, '')
-  if (!cleanId) return generateMockData(brand)
+  const params = new URLSearchParams({ id: cleanId })
+  if (brand.sheetName) params.set('sheet', brand.sheetName)
+  const res = await fetch(`/api/sheets?${params}`)
+  const json = await res.json()
+  if (!res.ok) throw new Error(json.error ?? `Sheets API error ${res.status}`)
+  return parseRawRows(json.values ?? [], brand.name)
+}
 
-  try {
-    const rows = await fetchSheetRows(brand)
-    if (rows.length === 0) return generateMockData(brand)
+// ── Main export ───────────────────────────────────────────────────────────────
+export async function fetchBrandData(brand: Brand): Promise<Pick<BrandData, 'rows' | 'shopifyRows'>> {
+  const cleanMetaId = brand.spreadsheetId.trim().replace(/\/+$/, '')
+  const cleanShopifyId = (brand.shopifySpreadsheetId ?? '').trim().replace(/\/+$/, '')
 
-    let parsed: AnyRow[]
-    if (brand.vertical === 'ecommerce') parsed = rows.map(parseEcomRow)
-    else if (brand.vertical === 'hospital') parsed = rows.map(parseHospitalRow)
-    else parsed = rows.map(parseOtherRow)
+  const [metaRows, shopifyRows] = await Promise.all([
+    cleanMetaId
+      ? fetchSheetRows(brand)
+          .then((rawRows) => {
+            const parsed =
+              brand.vertical === 'ecommerce' ? rawRows.map(parseEcomRow)
+              : brand.vertical === 'hospital' ? rawRows.map(parseHospitalRow)
+              : rawRows.map(parseOtherRow)
+            const withDate = parsed.filter((r) => r.date)
+            return withDate.length > 0 ? withDate : generateMockData(brand)
+          })
+          .catch((err) => {
+            console.error(`[${brand.name}] Meta fetch failed:`, err)
+            return generateMockData(brand)
+          })
+      : Promise.resolve(generateMockData(brand)),
 
-    // Only keep rows that have a date value
-    const withDate = parsed.filter((r) => r.date && r.date.length > 0)
-    return withDate.length > 0 ? withDate : generateMockData(brand)
-  } catch (err) {
-    console.error(`[${brand.name}] Sheets fetch failed:`, err)
-    return generateMockData(brand)
-  }
+    cleanShopifyId
+      ? fetchSheetRowsById(cleanShopifyId, brand.shopifySheetName, brand.name + ' (Shopify)')
+          .then((rawRows) => {
+            const parsed = rawRows.map(parseShopifyRow).filter((r) => r.date)
+            return parsed
+          })
+          .catch((err) => {
+            console.error(`[${brand.name}] Shopify fetch failed:`, err)
+            return [] as ShopifyRow[]
+          })
+      : Promise.resolve([] as ShopifyRow[]),
+  ])
+
+  return { rows: metaRows, shopifyRows }
 }
 
 // ── Mock data (shown when spreadsheetId is empty) ────────────────────────────

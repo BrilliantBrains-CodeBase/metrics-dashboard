@@ -1,15 +1,17 @@
 export type Vertical = 'ecommerce' | 'hospital' | 'other'
 
+export type DataSource = 'shopify' | 'meta'
+
 export interface Brand {
   id: string
   name: string
   vertical: Vertical
-  /** Google Sheets spreadsheet ID (from the URL: /spreadsheets/d/{ID}/edit) */
+  /** Meta Ads sheet — Google Sheets spreadsheet ID */
   spreadsheetId: string
-  /** Sheet/tab name — defaults to the first visible sheet */
   sheetName?: string
-  /** 1-based row number where column headers live — defaults to auto-detect */
-  headerRow?: number
+  /** Shopify sheet — ecommerce only, default data source */
+  shopifySpreadsheetId?: string
+  shopifySheetName?: string
 }
 
 export interface EcomRow {
@@ -25,6 +27,15 @@ export interface EcomRow {
   cr: number
   ctr: number
   aov: number
+}
+
+export interface ShopifyRow {
+  date: string
+  orders: number
+  revenue: number
+  aov: number
+  cancellations: number
+  totalCustomers: number
 }
 
 export interface HospitalRow {
@@ -55,11 +66,12 @@ export interface OtherRow {
   ctr: number
 }
 
-export type AnyRow = EcomRow | HospitalRow | OtherRow
+export type AnyRow = EcomRow | HospitalRow | OtherRow | ShopifyRow
 
 export interface BrandData {
   brand: Brand
-  rows: AnyRow[]
+  rows: AnyRow[]          // Meta Ads rows
+  shopifyRows: ShopifyRow[]
   error?: string
 }
 

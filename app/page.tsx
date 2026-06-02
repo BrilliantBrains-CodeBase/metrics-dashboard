@@ -1,13 +1,15 @@
 'use client'
 import { useState, useEffect, useMemo, useRef } from 'react'
-import { Brand, BrandData, DateRange, EcomRow, HospitalRow, OtherRow, Vertical, ViewMode } from '@/types'
+import { Brand, BrandData, DataSource, DateRange, EcomRow, HospitalRow, OtherRow, ShopifyRow, Vertical, ViewMode } from '@/types'
 import { BRANDS } from '@/config/brands'
 import { fetchBrandData } from '@/lib/sheets'
 import {
   filterByDateRange,
+  filterShopifyByDateRange,
   sumEcom,
   sumHospital,
   sumOther,
+  sumShopify,
   fmt,
   growthPercent,
 } from '@/lib/metrics'
@@ -25,8 +27,19 @@ export default function Dashboard() {
   const [vertical, setVertical] = useState<Vertical>('ecommerce')
   const [dateRange, setDateRange] = useState<DateRange>('30d')
   const [viewMode, setViewMode] = useState<ViewMode>('overview')
+  const [dataSource, setDataSource] = useState<DataSource>('shopify')
   const [allBrandData, setAllBrandData] = useState<Record<string, BrandData>>({})
   const [loading, setLoading] = useState(false)
+  const [missingApiKey, setMissingApiKey] = useState(false)
+
+  useEffect(() => {
+    fetch('/api/config-check')
+      .then((r) => r.json())
+      .then(({ hasApiKey }: { hasApiKey: boolean }) => {
+        if (!hasApiKey) setMissingApiKey(true)
+      })
+      .catch(() => {})
+  }, [])
 
   const verticalBrands = useMemo(
     () => BRANDS.filter((b) => b.vertical === vertical),
@@ -50,14 +63,14 @@ export default function Dashboard() {
 
     Promise.all(
       uncached.map(async (brand) => {
-        const rows = await fetchBrandData(brand)
-        return { brand, rows }
+        const { rows, shopifyRows } = await fetchBrandData(brand)
+        return { brand, rows, shopifyRows }
       })
     ).then((results) => {
       setAllBrandData((prev) => {
         const next = { ...prev }
-        results.forEach(({ brand, rows }) => {
-          next[brand.id] = { brand, rows }
+        results.forEach(({ brand, rows, shopifyRows }) => {
+          next[brand.id] = { brand, rows, shopifyRows }
         })
         return next
       })
@@ -74,6 +87,27 @@ export default function Dashboard() {
 
   const kpis = useMemo(() => {
     if (!selectedData) return []
+
+    // Shopify source (ecommerce only)
+    if (vertical === 'ecommerce' && dataSource === 'shopify') {
+      const shopifyRows = filterShopifyByDateRange(selectedData.shopifyRows ?? [], dateRange)
+      if (shopifyRows.length === 0) {
+        return [{ label: 'Shopify', value: 'No data', highlight: false }]
+      }
+      const mid = Math.floor(shopifyRows.length / 2)
+      const s = sumShopify(shopifyRows)
+      const c = sumShopify(shopifyRows.slice(mid))
+      const p = sumShopify(shopifyRows.slice(0, mid))
+      return [
+        { label: 'Revenue', value: fmt(s.revenue, 'currency'), trend: growthPercent(c.revenue, p.revenue), highlight: true },
+        { label: 'Orders', value: fmt(s.orders, 'number'), trend: growthPercent(c.orders, p.orders) },
+        { label: 'AOV', value: fmt(s.aov, 'currency'), trend: growthPercent(c.aov, p.aov) },
+        { label: 'Cancellations', value: fmt(s.cancellations, 'number'), trend: -growthPercent(c.cancellations, p.cancellations) },
+        { label: 'Cancel Rate', value: fmt(s.cancellationRate, 'percent'), trend: -growthPercent(c.cancellationRate, p.cancellationRate) },
+        { label: 'Total Customers', value: fmt(s.totalCustomers, 'number'), trend: growthPercent(c.totalCustomers, p.totalCustomers) },
+      ]
+    }
+
     const rows = filterByDateRange(selectedData.rows, dateRange)
     const mid = Math.floor(rows.length / 2)
     const curr = rows.slice(mid)
@@ -122,7 +156,7 @@ export default function Dashboard() {
       { label: 'Conversions', value: fmt(s.conversions, 'number'), trend: growthPercent(c.conversions, p.conversions) },
       { label: 'CTR', value: fmt(s.ctr, 'percent'), trend: growthPercent(c.ctr, p.ctr) },
     ]
-  }, [selectedData, dateRange, vertical])
+  }, [selectedData, dateRange, vertical, dataSource])
 
   const compCharts = useMemo(() => {
     if (verticalData.length === 0) return []
@@ -187,12 +221,54 @@ export default function Dashboard() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 py-6 space-y-5">
-        {/* Row 1: Brand selector */}
-        <BrandSelector
-          brands={verticalBrands}
-          selected={selectedBrand}
-          onChange={setSelectedBrand}
-        />
+        {/* API key warning */}
+        {missingApiKey && (
+          <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 flex items-start gap-3">
+            <span className="text-amber-500 font-bold text-sm mt-0.5 shrink-0">!</span>
+            <div className="text-sm text-amber-800">
+              <strong>GOOGLE_SHEETS_API_KEY is not set</strong> — all brands are showing demo data.
+              Add this environment variable in your deployment settings, then redeploy.
+              <span className="block text-xs text-amber-600 mt-0.5">
+                Vercel: Project Settings &gt; Environment Variables &gt; Add GOOGLE_SHEETS_API_KEY
+              </span>
+            </div>
+            <button
+              onClick={() => setMissingApiKey(false)}
+              className="ml-auto text-amber-400 hover:text-amber-600 text-sm font-bold shrink-0"
+            >
+              x
+            </button>
+          </div>
+        )}
+
+        {/* Row 1: Brand selector + data source toggle (ecommerce only) */}
+        <div className="flex flex-wrap items-center gap-4 justify-between">
+          <BrandSelector
+            brands={verticalBrands}
+            selected={selectedBrand}
+            onChange={setSelectedBrand}
+          />
+          {vertical === 'ecommerce' && (
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-medium text-gray-400">Source</span>
+              <div className="flex gap-1 bg-gray-100 p-1 rounded-lg">
+                {(['shopify', 'meta'] as DataSource[]).map((src) => (
+                  <button
+                    key={src}
+                    onClick={() => setDataSource(src)}
+                    className={`px-3 py-1 rounded-md text-xs font-semibold transition-all duration-150 capitalize ${
+                      dataSource === src
+                        ? 'bg-white text-gray-900 shadow-sm'
+                        : 'text-gray-500 hover:text-gray-700'
+                    }`}
+                  >
+                    {src === 'shopify' ? 'Shopify' : 'Meta Ads'}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
 
         {/* Row 2: Vertical tabs + view toggle */}
         <div className="flex flex-wrap items-center gap-4 justify-between">
@@ -291,10 +367,13 @@ export default function Dashboard() {
           </div>
         )}
 
-        <div className="text-center text-xs text-gray-300 pb-4">
-          Showing demo data. Add Google Sheets CSV URLs in{' '}
-          <code className="font-mono">config/brands.ts</code> to load real data.
-        </div>
+        {missingApiKey && (
+          <div className="text-center text-xs text-gray-300 pb-4">
+            Brands without a spreadsheet ID show demo data. Set{' '}
+            <code className="font-mono">GOOGLE_SHEETS_API_KEY</code> and add spreadsheet IDs in{' '}
+            <code className="font-mono">config/brands.ts</code> to load real data.
+          </div>
+        )}
       </div>
     </main>
   )
