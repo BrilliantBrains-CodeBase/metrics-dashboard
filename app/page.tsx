@@ -99,12 +99,14 @@ export default function Dashboard() {
       const c = sumShopify(shopifyRows.slice(mid))
       const p = sumShopify(shopifyRows.slice(0, mid))
       return [
-        { label: 'Revenue', value: fmt(s.revenue, 'currency'), trend: growthPercent(c.revenue, p.revenue), highlight: true },
-        { label: 'Orders', value: fmt(s.orders, 'number'), trend: growthPercent(c.orders, p.orders) },
-        { label: 'AOV', value: fmt(s.aov, 'currency'), trend: growthPercent(c.aov, p.aov) },
-        { label: 'Cancellations', value: fmt(s.cancellations, 'number'), trend: -growthPercent(c.cancellations, p.cancellations) },
-        { label: 'Cancel Rate', value: fmt(s.cancellationRate, 'percent'), trend: -growthPercent(c.cancellationRate, p.cancellationRate) },
-        { label: 'Total Customers', value: fmt(s.totalCustomers, 'number'), trend: growthPercent(c.totalCustomers, p.totalCustomers) },
+        { label: 'Net Sales',     value: fmt(s.netSales,     'currency'), trend: growthPercent(c.netSales,     p.netSales),     highlight: true },
+        { label: 'Gross Sales',   value: fmt(s.grossSales,   'currency'), trend: growthPercent(c.grossSales,   p.grossSales) },
+        { label: 'Total Sales',   value: fmt(s.totalSales,   'currency'), trend: growthPercent(c.totalSales,   p.totalSales) },
+        { label: 'Orders',        value: fmt(s.orders,       'number'),   trend: growthPercent(c.orders,       p.orders) },
+        { label: 'AOV',           value: fmt(s.aov,          'currency'), trend: growthPercent(c.aov,          p.aov) },
+        { label: 'Discounts',     value: fmt(s.discounts,    'currency'), trend: -growthPercent(c.discounts,   p.discounts) },
+        { label: 'Returns',       value: fmt(s.returns,      'currency'), trend: -growthPercent(c.returns,     p.returns) },
+        { label: 'Return Rate',   value: fmt(s.returnRate,   'percent'),  trend: -growthPercent(c.returnRate,  p.returnRate) },
       ]
     }
 

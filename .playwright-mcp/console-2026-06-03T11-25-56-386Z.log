@@ -1,0 +1,136 @@
+[     967ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    2459ms] [LOG] [Fast Refresh] done in 1593ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    4294ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    4634ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    5017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    5325ms] [LOG] [Fast Refresh] done in 410ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    5800ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    6204ms] [LOG] [Fast Refresh] done in 505ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    6312ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    6593ms] [LOG] [Fast Refresh] done in 383ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    6703ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    7395ms] [LOG] [SCHICK-A-WALK] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    7640ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    7905ms] [LOG] [SCHICK-A-WALK (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    7927ms] [LOG] [Fast Refresh] done in 1324ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    8065ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    8082ms] [LOG] [OSN (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    8083ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    8717ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    8927ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   14821ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   14965ms] [LOG] [Fast Refresh] done in 247ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  178601ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  179759ms] [LOG] [Fast Refresh] done in 704ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  188714ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  189068ms] [LOG] [Fast Refresh] done in 53ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  195243ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  195571ms] [LOG] [Fast Refresh] done in 226ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  197924ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  198241ms] [LOG] [Fast Refresh] done in 36ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  214733ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  214986ms] [LOG] [Fast Refresh] done in 49ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  222840ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  223031ms] [LOG] [Fast Refresh] done in 50ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  233212ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  233417ms] [LOG] [Fast Refresh] done in 69ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  238930ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  239117ms] [LOG] [Fast Refresh] done in 37ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  949274ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  949393ms] [LOG] [Fast Refresh] done in 248ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  950400ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  951123ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  952132ms] [LOG] [Saalvi] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  966069ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  966971ms] [ERROR] ./config/brands.ts:37:21
+Expected ',', got ':'
+  35 |     spreadsheetId: '1ucH0BZxVcyfnwCPjXliv3qapCz5ic0t2qbFNg05oCTg',
+  36 |     shopifySpreadsheetId:
+> 37 |     shopifySheetName: 'Shopify',
+     |                     ^
+  38 |   },
+  39 |   {
+  40 |     id: 'ecom-Maniyar Marketing',
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./config/brands.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./config/brands.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  967098ms] [ERROR] ./config/brands.ts:37:21
+Expected ',', got ':'
+  35 |     spreadsheetId: '1ucH0BZxVcyfnwCPjXliv3qapCz5ic0t2qbFNg05oCTg',
+  36 |     shopifySpreadsheetId: 
+> 37 |     shopifySheetName: 'Shopify',
+     |                     ^
+  38 |   },
+  39 |   {
+  40 |     id: 'ecom-Maniyar Marketing',
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./config/brands.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./config/brands.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  967151ms] [ERROR] ./config/brands.ts:37:21
+Expected ',', got ':'
+  35 |     spreadsheetId: '1ucH0BZxVcyfnwCPjXliv3qapCz5ic0t2qbFNg05oCTg',
+  36 |     shopifySpreadsheetId: 
+> 37 |     shopifySheetName: 'Shopify',
+     |                     ^
+  38 |   },
+  39 |   {
+  40 |     id: 'ecom-Maniyar Marketing',
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./config/brands.ts [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./config/brands.ts [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[  967217ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  974960ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  975285ms] [LOG] [Fast Refresh] done in 91ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  981471ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  981731ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  993759ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  993794ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  994430ms] [LOG] [OSN (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  994435ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  994643ms] [LOG] [SCHICK-A-WALK] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  994657ms] [LOG] [Saalvi (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  994658ms] [LOG] [Saalvi] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  994668ms] [LOG] [SCHICK-A-WALK (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995161ms] [LOG] [Evday (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995165ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995215ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995273ms] [LOG] [Maniyar (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995554ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995597ms] [LOG] [Skinloom (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995788ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  995799ms] [LOG] [Milkvilla (Shopify)] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1015923ms] [LOG] [Sunrise Himayat Nagar] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1016002ms] [LOG] [Clinic 2000] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1016198ms] [LOG] [Sunrise Shamshabad] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1016332ms] [LOG] [Rysewell Hospital] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1016712ms] [LOG] [Palve Labs] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477

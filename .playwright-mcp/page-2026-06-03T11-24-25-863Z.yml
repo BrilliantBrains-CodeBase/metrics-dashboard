@@ -1,0 +1,42 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - heading "Performance Dashboard" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Ad performance across verticals
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: Brand
+        - generic [ref=e11]:
+          - combobox [ref=e12] [cursor=pointer]:
+            - option "SCHICK-A-WALK" [selected]
+            - option "OSN"
+            - option "Maniyar"
+            - option "Evday"
+            - option "Skinloom"
+            - option "Milkvilla"
+          - generic:
+            - img
+      - generic [ref=e13]:
+        - generic [ref=e14]: Source
+        - generic [ref=e15]:
+          - button "Shopify" [ref=e16]
+          - button "Meta Ads" [ref=e17]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - button "eCommerce" [ref=e20]
+        - button "Hospitals" [ref=e21]
+        - button "Other" [ref=e22]
+      - generic [ref=e23]:
+        - button "Overview" [ref=e24]
+        - button "Report" [ref=e25]
+    - generic [ref=e26]:
+      - generic [ref=e27]: Period
+      - generic [ref=e28]:
+        - button "Yesterday" [ref=e29]
+        - button "Last 7 days" [ref=e30]
+        - button "Last 30 days" [ref=e31]
+        - button "Last 90 days" [ref=e32]
+        - button "All time" [ref=e33]
+    - generic [ref=e34]:
+      - heading "Key Insights" [level=3] [ref=e35]
+      - paragraph [ref=e36]: No significant insights for this period.

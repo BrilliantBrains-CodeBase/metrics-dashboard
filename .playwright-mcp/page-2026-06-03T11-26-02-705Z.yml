@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Performance Dashboard" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Ad performance across verticals
+      - generic [ref=e7]: Loading data…
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]: Brand
+          - generic [ref=e13]:
+            - combobox [ref=e14] [cursor=pointer]:
+              - option "SCHICK-A-WALK" [selected]
+              - option "OSN"
+              - option "Maniyar"
+              - option "Evday"
+              - option "Skinloom"
+              - option "Milkvilla"
+            - generic:
+              - img
+        - generic [ref=e15]:
+          - generic [ref=e16]: Source
+          - generic [ref=e17]:
+            - button "Shopify" [ref=e18]
+            - button "Meta Ads" [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - button "eCommerce" [ref=e22]
+          - button "Hospitals" [ref=e23]
+          - button "Other" [ref=e24]
+        - generic [ref=e25]:
+          - button "Overview" [ref=e26]
+          - button "Report" [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e29]: Period
+        - generic [ref=e30]:
+          - button "Yesterday" [ref=e31]
+          - button "Last 7 days" [ref=e32]
+          - button "Last 30 days" [ref=e33]
+          - button "Last 90 days" [ref=e34]
+          - button "All time" [ref=e35]
+      - heading "Key Insights" [level=3] [ref=e46]
+  - button "Open Next.js Dev Tools" [ref=e56] [cursor=pointer]:
+    - img [ref=e57]
+  - alert [ref=e60]

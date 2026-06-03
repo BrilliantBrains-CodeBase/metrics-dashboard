@@ -1,0 +1,19 @@
+[     926ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1000ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1193ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1272ms] [LOG] [Fast Refresh] done in 179ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1907ms] [LOG] [OSN (Shopify)] header row 1: [Date, Orders, Revenue, AOV, Cancellations, Total Customers] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1918ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1949ms] [LOG] [SCHICK-A-WALK (Shopify)] header row 1: [Date, Orders, Revenue, AOV, Cancellations, Total Customers] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1973ms] [LOG] [SCHICK-A-WALK] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    2241ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    2266ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    2739ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    3165ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   49968ms] [LOG] [Sunrise Himayat Nagar] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   50057ms] [LOG] [Clinic 2000] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   50200ms] [LOG] [Sunrise Shamshabad] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   50271ms] [LOG] [Rysewell Hospital] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   50328ms] [LOG] [Palve Labs] header row 1: [, Date, Ad Spend, Impressions, Clicks, Leads, Quality Leads, CPM, CPC, CTR, CR (Click→Lead), CPL, Qual %, CPQL] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86055ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   87707ms] [LOG] [Fast Refresh] done in 1441ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477

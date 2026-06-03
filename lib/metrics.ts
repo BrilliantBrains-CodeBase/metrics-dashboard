@@ -77,17 +77,22 @@ export function sumOther(rows: OtherRow[]) {
 }
 
 export function sumShopify(rows: ShopifyRow[]) {
-  const totRevenue = rows.reduce((s, r) => s + r.revenue, 0)
-  const totOrders = rows.reduce((s, r) => s + r.orders, 0)
-  const totCancellations = rows.reduce((s, r) => s + r.cancellations, 0)
-  const totCustomers = rows.reduce((s, r) => s + r.totalCustomers, 0)
+  const totTotalSales  = rows.reduce((s, r) => s + r.totalSales, 0)
+  const totGrossSales  = rows.reduce((s, r) => s + r.grossSales, 0)
+  const totDiscounts   = rows.reduce((s, r) => s + r.discounts, 0)
+  const totReturns     = rows.reduce((s, r) => s + r.returns, 0)
+  const totNetSales    = rows.reduce((s, r) => s + r.netSales, 0)
+  const totOrders      = rows.reduce((s, r) => s + r.orders, 0)
   return {
-    revenue: totRevenue,
-    orders: totOrders,
-    cancellations: totCancellations,
-    totalCustomers: totCustomers,
-    aov: totOrders > 0 ? totRevenue / totOrders : 0,
-    cancellationRate: totOrders > 0 ? (totCancellations / totOrders) * 100 : 0,
+    totalSales:    totTotalSales,
+    grossSales:    totGrossSales,
+    discounts:     totDiscounts,
+    returns:       totReturns,
+    netSales:      totNetSales,
+    orders:        totOrders,
+    aov:           totOrders > 0 ? totTotalSales / totOrders : 0,
+    discountRate:  totGrossSales > 0 ? (totDiscounts / totGrossSales) * 100 : 0,
+    returnRate:    totGrossSales > 0 ? (totReturns  / totGrossSales) * 100 : 0,
   }
 }
 

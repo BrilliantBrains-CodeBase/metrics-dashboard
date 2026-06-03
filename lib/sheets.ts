@@ -114,15 +114,19 @@ function parseOtherRow(raw: Record<string, string>): OtherRow {
 
 function parseShopifyRow(raw: Record<string, string>): ShopifyRow {
   const r = Object.fromEntries(Object.entries(raw).map(([k, v]) => [normalizeKey(k), v]))
-  const orders = n(pick(r, 'orders', 'totalorders', 'ordercount'))
-  const revenue = n(pick(r, 'revenue', 'grosssales', 'netsales', 'totalsales', 'sales'))
+  const orders = n(pick(r, 'totalorders', 'orders', 'ordercount'))
+  const grossSales = n(pick(r, 'grosssales'))
+  const netSales = n(pick(r, 'netsales'))
+  const totalSales = n(pick(r, 'totalsales')) || netSales || grossSales
   return {
-    date:           normalizeDate(pick(r, 'date', 'day')),
+    date:       normalizeDate(pick(r, 'date', 'day')),
+    totalSales,
+    grossSales,
+    discounts:  Math.abs(n(pick(r, 'discounts', 'discount'))),
+    returns:    Math.abs(n(pick(r, 'returns', 'refunds', 'return'))),
+    netSales,
     orders,
-    revenue,
-    aov:            n(pick(r, 'aov', 'averageordervalue', 'avgordervalue')) || (orders > 0 ? revenue / orders : 0),
-    cancellations:  n(pick(r, 'cancellations', 'cancelledorders', 'refunds')),
-    totalCustomers: n(pick(r, 'totalcustomers', 'customers', 'uniquecustomers')),
+    aov:        n(pick(r, 'aov', 'averageordervalue', 'avgordervalue')) || (orders > 0 ? totalSales / orders : 0),
   }
 }
 

@@ -31,11 +31,13 @@ export interface EcomRow {
 
 export interface ShopifyRow {
   date: string
+  totalSales: number
+  grossSales: number
+  discounts: number
+  returns: number
+  netSales: number
   orders: number
-  revenue: number
   aov: number
-  cancellations: number
-  totalCustomers: number
 }
 
 export interface HospitalRow {
