@@ -169,3 +169,45 @@ export function getVerticalTrendKey(vertical: Vertical): string {
   if (vertical === 'hospital') return 'leads'
   return 'revenue'
 }
+
+export function filterShopifyToday(rows: ShopifyRow[]): ShopifyRow[] {
+  const today = localDateStr(new Date())
+  return rows.filter((r) => r.date === today)
+}
+
+export function filterShopifyYesterday(rows: ShopifyRow[]): ShopifyRow[] {
+  const d = new Date()
+  d.setDate(d.getDate() - 1)
+  return rows.filter((r) => r.date === localDateStr(d))
+}
+
+export function filterByMonthPrefix(rows: ShopifyRow[], prefix: string): ShopifyRow[] {
+  return rows.filter((r) => r.date.startsWith(prefix))
+}
+
+export function filterMetaByMonthPrefix(rows: EcomRow[], prefix: string): EcomRow[] {
+  return rows.filter((r) => r.date.startsWith(prefix))
+}
+
+export function computeMonthlyProjection(rows: ShopifyRow[]): {
+  total: number
+  projected: number
+  progressPct: number
+} {
+  const now = new Date()
+  const prefix = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`
+  const monthRows = filterByMonthPrefix(rows, prefix)
+  const total = sumShopify(monthRows).netSales
+
+  const dayOfMonth  = now.getDate()
+  const daysInMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0).getDate()
+  const progressPct = (dayOfMonth / daysInMonth) * 100
+  const projected   = progressPct > 0 ? (total / progressPct) * 100 : 0
+
+  return { total, projected, progressPct }
+}
+
+export function fmtDelta(value: number, type: 'currency' | 'number' | 'percent' | 'ratio' = 'number'): string {
+  const sign = value >= 0 ? '+' : ''
+  return `${sign}${fmt(value, type)}`
+}

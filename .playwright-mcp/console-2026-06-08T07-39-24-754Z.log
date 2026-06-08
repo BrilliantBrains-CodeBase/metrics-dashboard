@@ -8,3 +8,17 @@
 [     280ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
 [     280ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
 [     280ms] [LOG] [Milkvilla (Shopify)] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  154564ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  154619ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  154738ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  154747ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  155362ms] [LOG] [SCHICK-A-WALK] header row 1: [Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  155816ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  155948ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  155981ms] [LOG] [Saalvi] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  156044ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  156084ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  156087ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  156231ms] [LOG] [Milkvilla (Shopify)] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  275199ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[  275280ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
