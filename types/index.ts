@@ -1,6 +1,15 @@
+import { ShopifyAnalyticsData } from '@/types/shopify-analytics'
+export type { ShopifyAnalyticsData }
+
 export type Vertical = 'ecommerce' | 'hospital' | 'other'
 
-export type DataSource = 'shopify' | 'meta'
+export type DataSource = 'shopify' | 'meta' | 'google-ads' | 'meta-ads' | 'interakt'
+
+export interface NavState {
+  vertical:   Vertical
+  brandId:    string
+  dataSource: DataSource
+}
 
 export interface Brand {
   id: string
@@ -12,6 +21,15 @@ export interface Brand {
   /** Shopify sheet — ecommerce only, default data source */
   shopifySpreadsheetId?: string
   shopifySheetName?: string
+  /** Shopify Analytics snapshot tab — defaults to "Shopify Analytics" */
+  shopifyAnalyticsSheetName?: string
+  /** Multi-sheet Shopify Analytics (separate spreadsheet with one sheet per section) */
+  shopifyAnalyticsSpreadsheetId?: string
+  shopifyOverviewSheet?:          string
+  shopifyProductSheet?:           string
+  shopifyLocationSheet?:          string
+  shopifyReferrerSheet?:          string
+  shopifyLandingPageSheet?:       string
 }
 
 export interface EcomRow {
@@ -72,8 +90,9 @@ export type AnyRow = EcomRow | HospitalRow | OtherRow | ShopifyRow
 
 export interface BrandData {
   brand: Brand
-  rows: AnyRow[]          // Meta Ads rows
+  rows: AnyRow[]
   shopifyRows: ShopifyRow[]
+  shopifyAnalytics?: ShopifyAnalyticsData
   error?: string
 }
 

@@ -1,0 +1,8 @@
+[     380ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.whatsapp.com/data/manifest.json:0
+[     406ms] [ERROR] Manifest fetch from https://api.whatsapp.com/data/manifest.json failed, code 404 @ https://api.whatsapp.com/send/?phone=919090546363&text&type=phone_number&app_absent=0:0
+[    1627ms] [INFO] Launched external handler for 'whatsapp://send/?phone=919090546363&text&type=phone_number&app_absent=0'. @ https://api.whatsapp.com/send/?phone=919090546363&text&type=phone_number&app_absent=0:0
+[    4968ms] [ERROR] ErrorUtils caught an error:
+
+[storage] storage bucket persistence denied (aquire-persistent-storage-denied)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 17870, clientTime: 1780638547, extra: Object, guardList: Array(0), hash: jxildt} @ https://static.whatsapp.net/rsrc.php/v4/yA/r/llpHPzBZ1ZW.js:79

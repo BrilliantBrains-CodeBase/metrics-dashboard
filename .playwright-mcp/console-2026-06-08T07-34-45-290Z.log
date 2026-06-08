@@ -1,0 +1,22 @@
+[     216ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     233ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     401ms] [LOG] [SCHICK-A-WALK] header row 1: [Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     402ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     402ms] [LOG] [Saalvi] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     409ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     410ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     410ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     410ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     410ms] [LOG] [Milkvilla (Shopify)] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   54344ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   54366ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   55119ms] [LOG] [SCHICK-A-WALK] header row 1: [Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   55618ms] [LOG] [Saalvi] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   55620ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   55628ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   55660ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   55679ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   55705ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   56032ms] [LOG] [Milkvilla (Shopify)] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   65236ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   65387ms] [LOG] [Fast Refresh] done in 52ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477

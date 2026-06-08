@@ -101,13 +101,44 @@ export function filterShopifyByDateRange(rows: ShopifyRow[], range: DateRange): 
   if (range === 'yesterday') {
     const y = new Date()
     y.setDate(y.getDate() - 1)
-    const yStr = y.toISOString().slice(0, 10)
-    return rows.filter((r) => r.date === yStr)
+    return rows.filter((r) => r.date === localDateStr(y))
   }
   const days = range === '7d' ? 7 : range === '30d' ? 30 : 90
   const cutoff = new Date()
   cutoff.setDate(cutoff.getDate() - days)
-  return rows.filter((r) => new Date(r.date) >= cutoff)
+  const cutoffStr = localDateStr(cutoff)
+  return rows.filter((r) => r.date >= cutoffStr)
+}
+
+// Returns the period immediately preceding the selected range, of equal length,
+// so KPI trends compare like-for-like (e.g. "yesterday" vs "the day before").
+function localDateStr(d: Date): string {
+  return [
+    d.getFullYear(),
+    String(d.getMonth() + 1).padStart(2, '0'),
+    String(d.getDate()).padStart(2, '0'),
+  ].join('-')
+}
+
+export function filterShopifyPreviousPeriod(rows: ShopifyRow[], range: DateRange): ShopifyRow[] {
+  if (range === 'all') return []
+
+  if (range === 'yesterday') {
+    const d = new Date()
+    d.setDate(d.getDate() - 2)
+    const dStr = localDateStr(d)
+    return rows.filter((r) => r.date === dStr)
+  }
+
+  const days = range === '7d' ? 7 : range === '30d' ? 30 : 90
+  const periodEndDate = new Date()
+  periodEndDate.setDate(periodEndDate.getDate() - days)
+  const periodStartDate = new Date()
+  periodStartDate.setDate(periodStartDate.getDate() - days * 2)
+  const periodEnd   = localDateStr(periodEndDate)
+  const periodStart = localDateStr(periodStartDate)
+
+  return rows.filter((r) => r.date >= periodStart && r.date < periodEnd)
 }
 
 export function growthPercent(current: number, previous: number): number {

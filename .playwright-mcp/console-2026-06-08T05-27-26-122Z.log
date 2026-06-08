@@ -1,0 +1,61 @@
+[     183ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     235ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     359ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     373ms] [LOG] [SCHICK-A-WALK] header row 1: [Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     380ms] [LOG] [SCHICK-A-WALK (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     389ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     422ms] [LOG] [OSN (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     527ms] [LOG] [Saalvi] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     532ms] [LOG] [Saalvi (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     537ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     540ms] [LOG] [Maniyar (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     546ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     550ms] [LOG] [Evday (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     555ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     560ms] [LOG] [Skinloom (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     568ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     572ms] [LOG] [Milkvilla (Shopify)] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     648ms] [LOG] [Fast Refresh] done in 389ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     905ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Sessions+by+Referrer:0
+[     906ms] [ERROR] [SCHICK-A-WALK] Multi-sheet Shopify Analytics fetch failed: Error: The caller does not have permission
+    at fetchSheetRaw (http://localhost:3000/_next/static/chunks/_00mmp3z._.js:893:24)
+    at async Promise.all (index 3)
+    at async fetchShopifyAnalyticsMultiSheet (http://localhost:3000/_next/static/chunks/_00mmp3z._.js:984:70) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[     938ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Overview:0
+[    1016ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Sessions+by+Location:0
+[    1040ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Product+Performance:0
+[    1041ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Sessions+by+Landing+Page:0
+[   29705ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1Vnfxf4c_jOamwTQp14RNuylIOnYxI_Zedi6JK-gTcdg&sheet=Sessions+by+Location:0
+[   29707ms] [ERROR] [OSN] Multi-sheet Shopify Analytics fetch failed: Error: The caller does not have permission
+    at fetchSheetRaw (http://localhost:3000/_next/static/chunks/_00mmp3z._.js:893:24)
+    at async Promise.all (index 2)
+    at async fetchShopifyAnalyticsMultiSheet (http://localhost:3000/_next/static/chunks/_00mmp3z._.js:984:70) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   29728ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1Vnfxf4c_jOamwTQp14RNuylIOnYxI_Zedi6JK-gTcdg&sheet=Sessions+by+Referrer:0
+[   34813ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1Vnfxf4c_jOamwTQp14RNuylIOnYxI_Zedi6JK-gTcdg&sheet=Overview:0
+[   39854ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1Vnfxf4c_jOamwTQp14RNuylIOnYxI_Zedi6JK-gTcdg&sheet=Sessions+by+Landing+Page:0
+[   39859ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1Vnfxf4c_jOamwTQp14RNuylIOnYxI_Zedi6JK-gTcdg&sheet=Product+Performance:0
+[   85189ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   85206ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   85783ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Product+Performance:0
+[   85783ms] [ERROR] [SCHICK-A-WALK] Multi-sheet Shopify Analytics fetch failed: Error: The caller does not have permission
+    at fetchSheetRaw (http://localhost:3000/_next/static/chunks/_00mmp3z._.js:893:24)
+    at async Promise.all (index 1)
+    at async fetchShopifyAnalyticsMultiSheet (http://localhost:3000/_next/static/chunks/_00mmp3z._.js:984:70) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[   85866ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Overview:0
+[   85866ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Sessions+by+Referrer:0
+[   85867ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Sessions+by+Location:0
+[   85868ms] [LOG] [SCHICK-A-WALK] header row 1: [Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   85881ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:3000/api/sheets?id=1F1Is_owORKrTbU5ERqmgDIrQsfpv4kM4_um30-Eiohg&sheet=Sessions+by+Landing+Page:0
+[   86205ms] [LOG] [SCHICK-A-WALK (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86319ms] [LOG] [OSN] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86320ms] [LOG] [OSN (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86420ms] [LOG] [Maniyar] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86428ms] [LOG] [Saalvi] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86492ms] [LOG] [Saalvi (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86649ms] [LOG] [Maniyar (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86773ms] [LOG] [Evday] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86775ms] [LOG] [Evday (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86930ms] [LOG] [Milkvilla] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86966ms] [LOG] [Skinloom (Shopify)] header row 1: [Date, Total Sales, Gross Sales, Discounts, Returns, Net Sales, Total Orders, Aov] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   86982ms] [LOG] [Skinloom] header row 1: [, Date, Ad Spend, Revenue, Impressions, Clicks, ATC, Purchases, ROAS, CPA, CR, CTR, AOV] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   87136ms] [LOG] [Milkvilla (Shopify)] header row 1: [] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477

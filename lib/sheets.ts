@@ -1,4 +1,7 @@
 import { Brand, EcomRow, HospitalRow, OtherRow, AnyRow, ShopifyRow, BrandData } from '@/types'
+import { ShopifyAnalyticsData } from '@/types/shopify-analytics'
+import { parseShopifyAnalyticsSheet, generateMockShopifyAnalytics } from '@/lib/shopify-analytics-parser'
+import { assembleFromSheets, parseOverviewSheetToRows } from '@/lib/shopify-multi-sheet-parser'
 
 // ── Number normalizer ─────────────────────────────────────────────────────────
 function n(v: unknown): number {
@@ -130,6 +133,15 @@ function parseShopifyRow(raw: Record<string, string>): ShopifyRow {
   }
 }
 
+// ── Raw sheet fetch (returns string[][] without parsing) ─────────────────────
+async function fetchSheetRaw(id: string, sheetName: string): Promise<string[][]> {
+  const params = new URLSearchParams({ id: id.trim(), sheet: sheetName })
+  const res = await fetch(`/api/sheets?${params}`)
+  const json = await res.json()
+  if (!res.ok) throw new Error(json.error ?? `Sheets error ${res.status}`)
+  return json.values ?? []
+}
+
 // ── Sheets API fetch ──────────────────────────────────────────────────────────
 async function fetchSheetRowsById(id: string, sheetName?: string, debugLabel?: string): Promise<Record<string, string>[]> {
   const cleanId = id.trim().replace(/\/+$/, '')
@@ -228,6 +240,71 @@ export async function fetchBrandData(brand: Brand): Promise<Pick<BrandData, 'row
   ])
 
   return { rows: metaRows, shopifyRows }
+}
+
+export interface ShopifyAnalyticsResult {
+  data:      ShopifyAnalyticsData
+  // Raw per-sheet data for multi-sheet brands; null for single-sheet/legacy brands.
+  // Stored so ShopifyDashboard can re-assemble with a different dateRange client-side
+  // without re-fetching.
+  rawSheets: import('@/lib/shopify-multi-sheet-parser').RawSheets | null
+  // Daily Shopify rows powering the KPI strip — sourced from the Overview sheet
+  // for multi-sheet brands; empty for single-sheet/legacy brands (KPI strip then
+  // falls back to the brand's separate "Shopify" time-series sheet, if any).
+  dailyRows: ShopifyRow[]
+  // true when a configured spreadsheet failed to load (permissions, network, etc.)
+  // false when the brand simply has no spreadsheet configured (intentional demo data)
+  error:     boolean
+}
+
+// ── Multi-sheet Shopify Analytics fetch ───────────────────────────────────────
+async function fetchShopifyAnalyticsMultiSheet(brand: Brand): Promise<ShopifyAnalyticsResult> {
+  const id = (brand.shopifyAnalyticsSpreadsheetId ?? brand.shopifySpreadsheetId ?? '').trim()
+  if (!id) return { data: generateMockShopifyAnalytics(brand.name), rawSheets: null, dailyRows: [], error: false }
+
+  try {
+    const [overview, product, location, referrer, landingPage] = await Promise.all([
+      fetchSheetRaw(id, brand.shopifyOverviewSheet    ?? 'Overview'),
+      fetchSheetRaw(id, brand.shopifyProductSheet     ?? 'Product Performance'),
+      fetchSheetRaw(id, brand.shopifyLocationSheet    ?? 'Sessions by Location'),
+      fetchSheetRaw(id, brand.shopifyReferrerSheet    ?? 'Sessions by Referrer'),
+      fetchSheetRaw(id, brand.shopifyLandingPageSheet ?? 'Sessions by Landing Page'),
+    ])
+    return {
+      data:      assembleFromSheets(overview, product, location, referrer, landingPage),
+      rawSheets: { overview, product, location, referrer, landingPage },
+      dailyRows: parseOverviewSheetToRows(overview),
+      error:     false,
+    }
+  } catch (err) {
+    console.error(`[${brand.name}] Multi-sheet Shopify Analytics fetch failed:`, err)
+    return { data: generateMockShopifyAnalytics(brand.name), rawSheets: null, dailyRows: [], error: true }
+  }
+}
+
+// ── Shopify Analytics snapshot fetch ─────────────────────────────────────────
+export async function fetchShopifyAnalytics(brand: Brand): Promise<ShopifyAnalyticsResult> {
+  // Multi-sheet path (brands with per-section sheet tabs)
+  if (brand.shopifyOverviewSheet) {
+    return fetchShopifyAnalyticsMultiSheet(brand)
+  }
+
+  const id = (brand.shopifySpreadsheetId ?? '').trim()
+  if (!id) return { data: generateMockShopifyAnalytics(brand.name), rawSheets: null, dailyRows: [], error: false }
+
+  try {
+    const sheetName = brand.shopifyAnalyticsSheetName ?? 'Shopify Analytics'
+    const params = new URLSearchParams({ id, sheet: sheetName })
+    const res = await fetch(`/api/sheets?${params}`)
+    const json = await res.json()
+    if (!res.ok) throw new Error(json.error ?? `Sheets error ${res.status}`)
+    const raw: string[][] = json.values ?? []
+    if (raw.length === 0) return { data: generateMockShopifyAnalytics(brand.name), rawSheets: null, dailyRows: [], error: false }
+    return { data: parseShopifyAnalyticsSheet(raw), rawSheets: null, dailyRows: [], error: false }
+  } catch (err) {
+    console.error(`[${brand.name}] Shopify Analytics fetch failed:`, err)
+    return { data: generateMockShopifyAnalytics(brand.name), rawSheets: null, dailyRows: [], error: true }
+  }
 }
 
 // ── Mock data (shown when spreadsheetId is empty) ────────────────────────────
